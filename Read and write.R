@@ -48,5 +48,7 @@ colnames(df7)[5:54]<-2040:1991
 
 write_path<-"C:/Users/Desktop/write/"
 
+#this was used in data
+
 dataset_names<-list("Sheet1"=df1, "Sheet2"=df2, "Sheet3"=df3, "sheet4"=df4,"sheet5"=df5, "sheet6"=df6,"sheet7"=df7)
 write.xlsx(dataset_names, file = paste0(write_path, "cu.xlsx"))
